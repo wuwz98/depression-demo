@@ -4,9 +4,6 @@
     <el-table :data="localData">
       <el-table-column v-for="key in Object.keys(localData[0])" :prop="key" :label="key" :key="key">
       </el-table-column>
-
-
-
     </el-table>
   </div>
 </template>
